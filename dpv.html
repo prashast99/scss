@@ -1,10 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Parallel & Distributed Systems Group">
+
+    <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.png">
 
     <!--CSS for Button  -->
@@ -13,7 +16,7 @@
       border: 0;}
     </style>
 
-    <!-- CSS for Collapse -->
+    <!-- CSS for Collapse Buttons-->
     <style media="screen">
       #more {display: none;}
       #more2 {display: none;}
@@ -23,14 +26,15 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
     <title>Parallel & Distributed Systems Group | Deo Prakash Vidyarthi Profile</title>
 
     <!-- Header -->
     <div class="b-example-divider"></div>
+
       <header class="p-3 text-white" style="background: #25274D;">
         <div class="container">
           <div class="row g-5">
-
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start col-md-8">
               <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
                 <img class="bi me-2" src="img/header3.png" width="55" height="50">
@@ -41,55 +45,52 @@
         </div>
       </header>
 
-
     <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light mb-5 sticky-sm-top" style="background: #b3daff;">
+      <div class="container">
+        <a class="nav-link link-dark" href="index.html">Home</a>
+        <button class="navbar-toggler btn btn-light  mx-2 border-0" type="button" id="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <nav class="navbar navbar-expand-lg navbar-light mb-5" style="background: #b3daff;">
-    <div class="container">
-    <a class="nav-link link-dark" href="index.html">Home</a>
-    <button class="navbar-toggler btn btn-light  mx-2 border-0" type="button" id="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <button type="button" name="button" class="btn btn-light mx-2"  id="button"><a class="nav-link" aria-current="page" href="facility.html">Facilities</a></button>
-        </li>
-        <li class="nav-item">
-          <button type="button" name="button" class="btn btn-light mx-1"  id="button"><a class="nav-link " aria-current="page" href="area.html">Research Area</a></button>
-        </li>
-        <li class="nav-item dropdown">
-          <button type="button" name="button" id="button" class="btn btn-light" >
-          <a class="btn btn-secondary dropdown-toggle btn-light text-muted border-0 p-2 navbar-brand" style="background: #b3daff;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Research Profile</a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item link-dark"  href="dpv.html"><b>Prof. Deo Prakash Vidyarthi</b></a></li><hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="zahid.html">Dr. Zahid Raza</a></li>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <button type="button" name="button" class="btn btn-light mx-2"  id="button"><a class="nav-link" aria-current="page" href="facility.html">Facilities</a></button>
+            </li>
+            <li class="nav-item">
+              <button type="button" name="button" class="btn btn-light mx-1"  id="button"><a class="nav-link " aria-current="page" href="area.html">Research Area</a></button>
+            </li>
+            <li class="nav-item dropdown">
+              <button type="button" name="button" id="button" class="btn btn-light" >
+              <a class="btn btn-secondary dropdown-toggle btn-light text-muted border-0 p-2 nav-link active" style="background: #b3daff;" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"><b>Research Profile</b></a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item"  href="dpv.html"><b>Prof. Deo Prakash Vidyarthi</b></a></li><hr class="dropdown-divider">
+                <li><a class="dropdown-item" href="zahid.html">Dr. Zahid Raza</a></li>
+              </ul>
+              </button>
+            </li>
+            <li class="nav-item">
+              <button type="button" name="button" class="btn btn-light mx-2"  id="button"><a class="nav-link " aria-current="page" href="members.html">Members</a></button>
+            </li>
+            <li class="nav-item">
+              <button type="button" name="button" class="btn btn-light mx-2"  id="button"><a class="nav-link" aria-current="page" href="events.html">Events</a></button>
+            </li>
+            <li class="nav-item">
+              <button type="button" name="button" class="btn btn-light mx-2"  id="button"><a class="nav-link " aria-current="page" href="gallery.html">Gallery</a></button>
+            </li>
+            <li class="nav-item">
+              <button type="button" name="button" class="btn btn-light mx-2"  id="button"><a class="nav-link " aria-current="page" href="contact.html">Contact</a></button>
+            </li>
           </ul>
-          </button>
-        </li>
-        <li class="nav-item">
-          <button type="button" name="button" class="btn btn-light mx-2"  id="button"><a class="nav-link " aria-current="page" href="members.html">Members</a></button>
-        </li>
-        <li class="nav-item">
-          <button type="button" name="button" class="btn btn-light mx-2"  id="button"><a class="nav-link " aria-current="page" href="events.html">Events</a></button>
-        </li>
-        <li class="nav-item">
-          <button type="button" name="button" class="btn btn-light mx-2"  id="button"><a class="nav-link " aria-current="page" href="gallery.html">Gallery</a></button>
-        </li>
-        <li class="nav-item">
-          <button type="button" name="button" class="btn btn-light mx-2"  id="button"><a class="nav-link " aria-current="page" href="contact.html">Contact</a></button>
-        </li>
-      </ul>
-    </div>
-    </div>
+        </div>
+      </div>
     </nav>
 
 <main class="container">
 
   <!-- breadcrumb -->
-
   <nav class="px-1" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="index.html" class="link-secondary">Home</a></li>
@@ -99,8 +100,8 @@
   </nav>
 
 
-  <!-- Books -->
     <div class="row g-5">
+
       <!-- Side Menu -->
             <div class="col-md-3">
               <div class="position-sticky" style="top: 1rem;">
@@ -124,7 +125,7 @@
             </div>
           </div>
 
-
+        <!-- Books -->
         <div class="col-md-9">
           <h3 class="pb-2 mb-4 fst-italic border-bottom">Prof. Deo Prakash Vidyarthi</h3>
           <h4 name="books"><span class="mw-headline" id="books"><u>Books</u></span></h4>
@@ -175,7 +176,6 @@
             </div>
 
     <!-- Journals -->
-
     <h4 name="journals" class="mt-2 pb-2"><span class="mw-headline" id="journals"><u>Journals</u></span></h4>
     <div class="article mt-4">
       <p>
@@ -343,7 +343,6 @@
 </article><hr>
 
 <!-- Book Chapter -->
-
 <h4 name="chapter" class="mt-4 pb-3"><span class="mw-headline" id="chapter"><u>Book Chapter</u></span></h4>
 <div class="article">
   <p>
@@ -361,7 +360,6 @@
 </div><hr>
 
 <!-- Magazines -->
-
 <h4 name="magazines" class="mt-4 pb-3"><span class="mw-headline" id="magazines"><u>Magazines</u></span></h4>
 <div class="article">
   <p>
@@ -371,7 +369,6 @@
 </div><hr>
 
 <!-- Edited Volumes -->
-
 <h4 name="volumes" class="mt-4 pb-3"><span class="mw-headline" id="volumes"><u>Edited Volumes</u></span></h4>
 <div class="article">
   <p>
@@ -385,7 +382,6 @@
 </div><hr>
 
 <!-- Invited Talk -->
-
 <h4 name="talk" class="mt-4 pb-3"><span class="mw-headline" id="talk"><u>Talks Delivered</u></span></h4>
 <div class="article">
   <p>
@@ -506,7 +502,6 @@
 </div><hr>
 
 <!-- Members in Professional Societies -->
-
 <h4 name="society" class="mt-4 pb-3"><span class="mw-headline" id="society"><u>Members in Professional Societies</u></span></h4>
 <div class="article" >
   <ol type="square" class="fs-6 d-grid gap-3 mb-4">
@@ -518,9 +513,9 @@
   </ol>
 </div><hr>
 
-<!-- Member in International Program Committee -->
+<!-- Members in International Program Committee -->
 
-<h4 name="program" class="mt-4 pb-1"><span class="mw-headline" id="program"><u>Member in International Program Committee</u></span></h4>
+<h4 name="program" class="mt-4 pb-1"><span class="mw-headline" id="program"><u>Members in International Program Committee</u></span></h4>
 <div class="article">
   <p>
     1.	National Conference on Methods and Models in Computing, Dec. 18-19, 2006, Jawaharlal Nehru University, New Delhi.<br><br>
@@ -575,16 +570,13 @@
 </div>
 
 
-
 <!-- Pagination -->
-
     <nav class="blog-pagination" aria-label="Pagination">
       <a class="btn btn-outline-primary mb-3" href="#">Back to Top</a>
     </nav>
 
-  </main>
+</main>
 
-    <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
@@ -592,9 +584,8 @@
     <!-- Option 2: Separate Popper and Bootstrap JS -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script> -->
 
-    <!-- script for buttons -->
+    <!-- Script for buttons -->
     <script src="button.js"></script>
 
     <!-- Footer -->
